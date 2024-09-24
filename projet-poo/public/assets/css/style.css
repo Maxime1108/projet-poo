@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Fond léger */
+    margin: 0;
+}
+
+nav {
+    background-color: #003366; /* Bleu foncé pour la navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff; /* Texte blanc pour les liens */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+h2 {
+    text-align: center;
+    color: #003366; /* Titre bleu foncé */
+}
+
+.formu {
+    background-color: #ffffff; /* Fond blanc pour le formulaire */
+    color: #003366; /* Texte bleu foncé */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 20px auto; /* Centre le formulaire */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #003366; /* Bordure bleu foncé */
+    border-radius: 4px;
+    background-color: #e6f2ff; /* Arrière-plan bleu clair pour les champs */
+    color: #003366; /* Texte bleu foncé */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #00509e; /* Bordure bleu plus clair au focus */
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #003366; /* Fond bleu foncé pour le bouton */
+    color: white; /* Texte blanc */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #00509e; /* Fond bleu plus clair au survol */
+}
